@@ -1,7 +1,17 @@
-# Web2-DAPP
-DAPP's don't need Web3 just like Napster and BitTorrent, here's one without a blockchain
+# WEB2 DAPP
 
-<!-- https://www.youtube.com/watch?v=J5x3OMXjgMc -->
+This is a perfectly decentralized web app. Without Web3. Make no mistake it is stored on multiple devices and uses them for auth and data verification and all. It just uses no blockchain tech.
 
-As always however as it always remains true
-**Web3 can solve this**
+> Because as always
+
+> *Web3 can solve this*
+
+## Caveats
+This is only a proof of concept therefore some features are not enforced or implemented
+- Username uniqueness is not enforced. It can however be
+- The data is technically encrypted but not secure since the encc key is in the code itself at
+```js
+// src/Chat.svelte@47:25
+const key = '#foo'
+```
+This key has effectively been hard coded everywhere
