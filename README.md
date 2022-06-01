@@ -1,5 +1,9 @@
 # WEB2 DAPP
 
+<div align="center">
+<img src="./public/logo.svg" height="300" width="300">
+</div>
+
 This is a perfectly decentralized web app. Without Web3. Make no mistake it is stored on multiple devices and uses them for auth and data verification and all. It just uses no blockchain tech.
 
 > Because as always
